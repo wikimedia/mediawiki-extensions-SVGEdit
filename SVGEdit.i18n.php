@@ -159,11 +159,19 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Armando-Martin
  * @author Mor
  */
 $messages['es'] = array(
+	'svgedit-editbutton-edit' => 'Editar dibujo',
+	'svgedit-summary-label' => 'Editar resumen',
+	'svgedit-summary-default' => '/* Modificado con svg-edit */',
 	'svgedit-editor-save-close' => 'Guardar y cerrar',
 	'svgedit-editor-close' => 'Cancelar',
+	'svgedit-desc' => 'Edición de dibujos en formato SVG en el propio navegador con [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Editar dibujo',
+	'svgedit-edit-tab-tooltip' => 'Puede editar esta dibujo SVG en el navegador',
+	'svgedit-toolbar-insert' => 'Dibujo SVG',
 );
 
 /** Basque (Euskara)
