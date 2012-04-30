@@ -47,6 +47,21 @@ $messages['ar'] = array(
 	'svgedit-editor-close' => 'ألغِ',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'svgedit-editbutton-edit' => 'Editar dibuxu',
+	'svgedit-summary-label' => "Resume d'edición",
+	'svgedit-summary-default' => '/*Camudáu con svg-edit */',
+	'svgedit-editor-save-close' => 'Guardar y zarrar',
+	'svgedit-editor-close' => 'Encaboxar',
+	'svgedit-desc' => 'Edición nel navegador de dibuxos SVG con [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Editar dibuxu',
+	'svgedit-edit-tab-tooltip' => 'Pues editar esti dibuxu SVG nel navegador',
+	'svgedit-toolbar-insert' => 'Dibuxu SVG',
+);
+
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
  */
