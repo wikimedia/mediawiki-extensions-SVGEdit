@@ -619,6 +619,7 @@ $messages['tl'] = array(
 );
 
 /** Ukrainian (Українська)
+ * @author Base
  * @author Тест
  */
 $messages['uk'] = array(
@@ -628,6 +629,9 @@ $messages['uk'] = array(
 	'svgedit-editor-save-close' => 'Зберегти і закрити',
 	'svgedit-editor-close' => 'Скасувати',
 	'svgedit-desc' => 'Редагування у браузері SVG-малюнків за допомогою [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Редагувати малюнок',
+	'svgedit-edit-tab-tooltip' => 'Ви можете редагувати це SVG-зображення у Вашому браузері',
+	'svgedit-toolbar-insert' => 'SVG малювання',
 );
 
 /** Vietnamese (Tiếng Việt)
