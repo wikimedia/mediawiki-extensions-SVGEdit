@@ -352,10 +352,15 @@ $messages['id'] = array(
 
 /** Japanese (日本語)
  * @author Ohgi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
+	'svgedit-editbutton-edit' => '図面を編集',
+	'svgedit-summary-default' => '/* svg-edit で変更しました */',
 	'svgedit-editor-save-close' => '保存して閉じる',
 	'svgedit-editor-close' => 'キャンセル',
+	'svgedit-edit-tab' => '図面を編集',
+	'svgedit-toolbar-insert' => 'SVG 図面',
 );
 
 /** Khmer (ភាសាខ្មែរ)
