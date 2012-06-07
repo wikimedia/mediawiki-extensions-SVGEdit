@@ -350,6 +350,14 @@ $messages['id'] = array(
 	'svgedit-toolbar-insert' => 'Gambar SVG',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'svgedit-editor-save-close' => 'Salva e chiudi',
+	'svgedit-editor-close' => 'Annulla',
+);
+
 /** Japanese (日本語)
  * @author Ohgi
  * @author Shirayuki
