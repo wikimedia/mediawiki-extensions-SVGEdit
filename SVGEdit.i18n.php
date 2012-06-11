@@ -24,6 +24,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Beta16
  * @author Brion Vibber <brion@pobox.com>
  * @author EugeneZelenko
  * @author Purodha
@@ -34,7 +35,7 @@ $messages['qqq'] = array(
 	'svgedit-editor-save-close' => 'Editor button to save the SVG file and close the editor',
 	'svgedit-editor-close' => 'Editor button to close the editor without saving
 {{Identical|Cancel}}',
-	'svgedit-desc' => 'Extension description displayed on [[Special:Version]]
+	'svgedit-desc' => '{{desc}}
 Do not alter the link target URL: <code lang="en">http://code.google.com/p/svg-edit/</code>',
 );
 
@@ -354,8 +355,15 @@ $messages['id'] = array(
  * @author Beta16
  */
 $messages['it'] = array(
+	'svgedit-editbutton-edit' => 'Modifica disegno',
+	'svgedit-summary-label' => 'Modifica oggetto',
+	'svgedit-summary-default' => '/* Modificato con svg-edit */',
 	'svgedit-editor-save-close' => 'Salva e chiudi',
 	'svgedit-editor-close' => 'Annulla',
+	'svgedit-desc' => 'Modifica nel browser di disegni SVG con [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Modifica disegno',
+	'svgedit-edit-tab-tooltip' => 'Puoi modificare questo disegno SVG nel tuo browser.',
+	'svgedit-toolbar-insert' => 'Disegno SVG',
 );
 
 /** Japanese (日本語)
