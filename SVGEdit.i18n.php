@@ -48,7 +48,7 @@ $messages['ar'] = array(
 	'svgedit-editor-close' => 'ألغِ',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -63,7 +63,7 @@ $messages['ast'] = array(
 	'svgedit-toolbar-insert' => 'Dibuxu SVG',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  */
 $messages['az'] = array(
@@ -87,7 +87,7 @@ $messages['be-tarask'] = array(
 	'svgedit-toolbar-insert' => 'SVG-малюнак',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -103,7 +103,7 @@ $messages['br'] = array(
 	'svgedit-toolbar-insert' => 'Tresadenn SVG',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -118,7 +118,7 @@ $messages['bs'] = array(
 	'svgedit-toolbar-insert' => 'SVG crtež',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author BroOk
  */
 $messages['ca'] = array(
@@ -174,7 +174,7 @@ $messages['eo'] = array(
 	'svgedit-desc' => 'Redakti desegnojn SVG en foliumilo per [http://code.google.com/p/svg-edit/ SVG-Edit]',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  * @author Mor
  */
@@ -190,7 +190,7 @@ $messages['es'] = array(
 	'svgedit-toolbar-insert' => 'Dibujo SVG',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  */
 $messages['eu'] = array(
@@ -198,7 +198,7 @@ $messages['eu'] = array(
 	'svgedit-editor-close' => 'Utzi',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  */
 $messages['fi'] = array(
@@ -207,7 +207,7 @@ $messages['fi'] = array(
 	'svgedit-editor-close' => 'Peruuta',
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  * @author Otourly
  * @author Sherbrooke
@@ -224,7 +224,7 @@ $messages['fr'] = array(
 	'svgedit-toolbar-insert' => 'Dessin SVG',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -307,7 +307,7 @@ $messages['hsb'] = array(
 	'svgedit-toolbar-insert' => 'SVG-rysowanje',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  */
 $messages['hu'] = array(
@@ -320,7 +320,7 @@ $messages['hu'] = array(
 	'svgedit-toolbar-insert' => 'SVG rajz',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -419,7 +419,7 @@ $messages['lb'] = array(
 	'svgedit-toolbar-insert' => 'SVG-Zeechnung',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -482,7 +482,7 @@ $messages['or'] = array(
 	'svgedit-editor-close' => 'ନାକଚ',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -513,7 +513,7 @@ $messages['pms'] = array(
 	'svgedit-toolbar-insert' => 'Disegné SVG',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Waldir
  */
@@ -529,7 +529,7 @@ $messages['pt'] = array(
 	'svgedit-toolbar-insert' => 'Desenho SVG',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
@@ -544,7 +544,7 @@ $messages['pt-br'] = array(
 	'svgedit-toolbar-insert' => 'Desenho SVG',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Purodha
  * @author Александр Сигачёв
  */
@@ -560,7 +560,7 @@ $messages['ru'] = array(
 	'svgedit-toolbar-insert' => 'Рисование SVG',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -575,7 +575,7 @@ $messages['sl'] = array(
 	'svgedit-toolbar-insert' => 'Risba SVG',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -589,7 +589,7 @@ $messages['sr-ec'] = array(
 	'svgedit-edit-tab-tooltip' => 'Можете уредити SVG цртеж у свом прегледачу',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $messages['sr-el'] = array(
 	'svgedit-editbutton-edit' => 'Uredi crtež',
 	'svgedit-summary-label' => 'Opis izmene',
@@ -601,7 +601,7 @@ $messages['sr-el'] = array(
 	'svgedit-edit-tab-tooltip' => 'Možete urediti SVG crtež u svom pregledaču',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -639,7 +639,7 @@ $messages['tl'] = array(
 	'svgedit-toolbar-insert' => 'Pagguhit ng SVG',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Base
  * @author Тест
  */
@@ -680,7 +680,7 @@ $messages['yi'] = array(
 	'svgedit-toolbar-insert' => 'SVG צייכענונג',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hydra
  */
 $messages['zh-hans'] = array(
@@ -689,7 +689,7 @@ $messages['zh-hans'] = array(
 	'svgedit-editor-close' => '取消',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
