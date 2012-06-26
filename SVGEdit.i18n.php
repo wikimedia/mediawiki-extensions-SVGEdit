@@ -200,9 +200,11 @@ $messages['eu'] = array(
 
 /** Finnish (suomi)
  * @author Crt
+ * @author Linnea
  */
 $messages['fi'] = array(
 	'svgedit-editbutton-edit' => 'Muokkaa piirrosta',
+	'svgedit-summary-label' => 'Yhteenveto',
 	'svgedit-editor-save-close' => 'Tallenna ja sulje',
 	'svgedit-editor-close' => 'Peruuta',
 );
