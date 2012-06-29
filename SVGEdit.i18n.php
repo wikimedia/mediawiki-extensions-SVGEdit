@@ -391,6 +391,21 @@ $messages['km'] = array(
 	'svgedit-desc' => 'ការកែសំរួលគំនូរប្រភេទ SVG ជាមួយ [http://code.google.com/p/svg-edit/ SVG-Edit]',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'svgedit-editbutton-edit' => '그리기 편집',
+	'svgedit-summary-label' => '편집 요약',
+	'svgedit-summary-default' => '/* svg-edit에 수정함  */',
+	'svgedit-editor-save-close' => '저장하고 닫기',
+	'svgedit-editor-close' => '취소',
+	'svgedit-desc' => '브라우저 내  [http://code.google.com/p/svg-edit/ SVG-Edit]로 SVG 그리기 편집',
+	'svgedit-edit-tab' => '그리기 편집',
+	'svgedit-edit-tab-tooltip' => '당신의 브라우저에 이 SVG 그리기를 편집할 수 있습니다',
+	'svgedit-toolbar-insert' => 'SVG 그리기',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
