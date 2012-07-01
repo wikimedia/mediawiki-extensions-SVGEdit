@@ -70,7 +70,7 @@ $messages['az'] = array(
 	'svgedit-editor-close' => 'Ləğv et',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -149,7 +149,7 @@ $messages['de'] = array(
 	'svgedit-toolbar-insert' => 'SVG-Zeichnung',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -241,7 +241,7 @@ $messages['frp'] = array(
 	'svgedit-toolbar-insert' => 'Dèssin SVG',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -294,7 +294,7 @@ $messages['he'] = array(
 	'svgedit-toolbar-insert' => 'SVG ציור',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
