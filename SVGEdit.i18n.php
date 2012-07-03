@@ -421,6 +421,13 @@ $messages['ksh'] = array(
 	'svgedit-toolbar-insert' => 'En Zeishnong em SVG-Fommaat',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'svgedit-editor-close' => 'Betal bike',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
