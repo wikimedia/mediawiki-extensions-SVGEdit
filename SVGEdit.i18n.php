@@ -488,14 +488,18 @@ $messages['ms'] = array(
 	'svgedit-toolbar-insert' => 'Lukisan SVG',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
 	'svgedit-editbutton-edit' => 'Rediger tegning',
+	'svgedit-summary-label' => 'Redigeringssammendrag',
+	'svgedit-summary-default' => '/* Endret i svg-edit */',
 	'svgedit-editor-save-close' => 'Lagre og lukk',
 	'svgedit-editor-close' => 'Avbryt',
 	'svgedit-desc' => 'Nettleserredigering av SVG-tegninger med [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Rediger tegning',
+	'svgedit-edit-tab-tooltip' => 'Du kan redigere denne SVG-tegningen i nettleseren din',
 	'svgedit-toolbar-insert' => 'SVG-tegning',
 );
 
