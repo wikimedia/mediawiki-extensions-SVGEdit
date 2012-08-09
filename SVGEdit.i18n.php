@@ -587,6 +587,14 @@ $messages['pt-br'] = array(
 	'svgedit-toolbar-insert' => 'Desenho SVG',
 );
 
+/** Romanian (română)
+ * @author Stelistcristi
+ */
+$messages['ro'] = array(
+	'svgedit-editor-save-close' => 'Salvează și închide',
+	'svgedit-editor-close' => 'Renunță',
+);
+
 /** Russian (русский)
  * @author Purodha
  * @author Александр Сигачёв
