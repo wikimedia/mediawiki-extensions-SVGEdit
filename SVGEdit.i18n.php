@@ -381,6 +381,18 @@ $messages['ja'] = array(
 	'svgedit-toolbar-insert' => 'SVG 図面',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'svgedit-editbutton-edit' => 'ნახატის რედაქტირება',
+	'svgedit-summary-label' => 'რეზიუმეს რედაქტირება',
+	'svgedit-editor-save-close' => 'შენახვა და დახურვა',
+	'svgedit-editor-close' => 'გაუქმება',
+	'svgedit-edit-tab' => 'ნახატის რედაქტირება',
+	'svgedit-toolbar-insert' => 'SVG ხატვა',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author គីមស៊្រុន
  */
@@ -486,6 +498,17 @@ $messages['ms'] = array(
 	'svgedit-edit-tab' => 'Sunting lukisan',
 	'svgedit-edit-tab-tooltip' => 'Anda boleh menyunting lukisan SVG ini dalam pelayar anda',
 	'svgedit-toolbar-insert' => 'Lukisan SVG',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'svgedit-editbutton-edit' => 'Immodifika d-disinn',
+	'svgedit-summary-label' => 'Sommarju',
+	'svgedit-summary-default' => '/* Irranġata bl-svg-edit */',
+	'svgedit-editor-save-close' => 'Salva u għalaq',
+	'svgedit-editor-close' => 'Ħassar',
 );
 
 /** Norwegian Bokmål (‪norsk (bokmål)‬)
@@ -609,6 +632,13 @@ $messages['ru'] = array(
 	'svgedit-edit-tab' => 'Править рисунок',
 	'svgedit-edit-tab-tooltip' => 'Вы можете редактировать этот SVG-рисунок в вашем браузере',
 	'svgedit-toolbar-insert' => 'Рисование SVG',
+);
+
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'svgedit-editor-close' => 'අත් හරින්න',
 );
 
 /** Slovenian (slovenščina)
