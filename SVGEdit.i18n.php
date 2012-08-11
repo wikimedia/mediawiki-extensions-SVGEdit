@@ -680,7 +680,7 @@ $messages['te'] = array(
  */
 $messages['tl'] = array(
 	'svgedit-editbutton-edit' => 'Baguhin ang iginuhit',
-	'svgedit-summary-label' => 'Baguhin ang buod',
+	'svgedit-summary-label' => 'Buod ng pamamatnugot',
 	'svgedit-summary-default' => '/* Binago sa svg-mamatnugot */',
 	'svgedit-editor-save-close' => 'Sagipin at isara',
 	'svgedit-editor-close' => 'Huwag ituloy',
