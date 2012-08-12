@@ -579,6 +579,13 @@ $messages['pms'] = array(
 	'svgedit-toolbar-insert' => 'Disegné SVG',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'svgedit-editor-close' => 'ناګارل',
+);
+
 /** Portuguese (português)
  * @author Hamilton Abreu
  * @author Waldir
@@ -695,6 +702,20 @@ $messages['sv'] = array(
 	'svgedit-edit-tab' => 'Redigera teckning',
 	'svgedit-edit-tab-tooltip' => 'Du kan redigera den här SVG-teckningen i din webbläsare',
 	'svgedit-toolbar-insert' => 'SVG-teckning',
+);
+
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'svgedit-editbutton-edit' => 'ஓவியத்தைத் தொகு',
+	'svgedit-summary-label' => 'தொகுப்புச் சுருக்கம்',
+	'svgedit-editor-save-close' => 'சேமித்த பின் மூடு',
+	'svgedit-editor-close' => 'இரத்து செய்',
+	'svgedit-edit-tab' => 'ஓவியத்தைத் தொகு',
+	'svgedit-edit-tab-tooltip' => 'நீங்கள் SVG ஓவியத்தை உங்கள் உலாவியில் தொகுக்கலாம்',
+	'svgedit-toolbar-insert' => 'SVG ஓவியம்',
 );
 
 /** Telugu (తెలుగు)
