@@ -40,12 +40,13 @@ Do not alter the link target URL: <code lang="en">http://code.google.com/p/svg-e
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author OsamaK
  * @author روخو
  */
 $messages['ar'] = array(
 	'svgedit-editor-save-close' => 'احفظ واغلق',
-	'svgedit-editor-close' => 'ألغِ',
+	'svgedit-editor-close' => 'إلغاء',
 );
 
 /** Asturian (asturianu)
