@@ -191,6 +191,13 @@ $messages['es'] = array(
 	'svgedit-toolbar-insert' => 'Dibujo SVG',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'svgedit-editor-save-close' => 'Salvesta ja sulge',
+);
+
 /** Basque (euskara)
  * @author An13sa
  */
