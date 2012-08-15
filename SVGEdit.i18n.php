@@ -193,9 +193,10 @@ $messages['es'] = array(
 
 /** Estonian (eesti)
  * @author Avjoska
+ * @author Pikne
  */
 $messages['et'] = array(
-	'svgedit-editor-save-close' => 'Salvesta ja sulge',
+	'svgedit-editor-save-close' => 'Salvesta ja sule',
 );
 
 /** Basque (euskara)
