@@ -250,6 +250,13 @@ $messages['frp'] = array(
 	'svgedit-toolbar-insert' => 'Dèssin SVG',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'svgedit-editor-close' => 'Cealaigh',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
