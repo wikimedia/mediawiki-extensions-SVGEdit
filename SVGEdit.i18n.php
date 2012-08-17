@@ -773,6 +773,13 @@ $messages['uk'] = array(
 	'svgedit-toolbar-insert' => 'SVG малювання',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'svgedit-editor-close' => 'منسوخ',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
