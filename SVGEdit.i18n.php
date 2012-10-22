@@ -693,7 +693,8 @@ $messages['sr-ec'] = array(
 	'svgedit-edit-tab-tooltip' => 'Можете уредити SVG цртеж у свом прегледачу',
 );
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'svgedit-editbutton-edit' => 'Uredi crtež',
 	'svgedit-summary-label' => 'Opis izmene',
@@ -822,4 +823,3 @@ $messages['zh-hant'] = array(
 	'svgedit-editor-save-close' => '保存和關閉',
 	'svgedit-editor-close' => '取消',
 );
-
