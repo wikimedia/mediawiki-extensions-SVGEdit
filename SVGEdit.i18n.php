@@ -390,6 +390,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'svgedit-editbutton-edit' => '図面を編集',
+	'svgedit-summary-label' => '編集の要約',
 	'svgedit-summary-default' => '/* svg-edit で変更しました */',
 	'svgedit-editor-save-close' => '保存して閉じる',
 	'svgedit-editor-close' => 'キャンセル',
