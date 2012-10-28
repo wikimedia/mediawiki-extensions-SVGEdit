@@ -801,6 +801,8 @@ $messages['vi'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'svgedit-editbutton-edit' => 'רעדאקטירן געמעל',
+	'svgedit-editor-save-close' => 'אויפהיטן און שליסן',
 	'svgedit-editor-close' => 'אַנולירן',
 	'svgedit-edit-tab' => 'רעדאַקטירן צייכענונג',
 	'svgedit-edit-tab-tooltip' => 'איר קענט ענדערן די SVG־צייכענונג אין אייער בלעטערער',
