@@ -150,6 +150,19 @@ $messages['de'] = array(
 	'svgedit-toolbar-insert' => 'SVG-Zeichnung',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'svgedit-editbutton-edit' => 'Xizan bıvurne',
+	'svgedit-summary-label' => 'Xulasay bıvurne',
+	'svgedit-summary-default' => '/* Svg-vurnayışi timar ke */',
+	'svgedit-editor-save-close' => 'Qeyd ke u racne',
+	'svgedit-editor-close' => 'Bıterkne',
+	'svgedit-edit-tab' => 'Xizan bıvurne',
+	'svgedit-toolbar-insert' => 'SVG xizkerden',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
