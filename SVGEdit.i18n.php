@@ -152,13 +152,14 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Mirzali
  */
 $messages['diq'] = array(
-	'svgedit-editbutton-edit' => 'Xizan bıvurne',
-	'svgedit-summary-label' => 'Xulasay bıvurne',
-	'svgedit-summary-default' => '/* Svg-vurnayışi timar ke */',
-	'svgedit-editor-save-close' => 'Qeyd ke u racne',
-	'svgedit-editor-close' => 'Bıterkne',
+	'svgedit-editbutton-edit' => 'Taslağ vıraze',
+	'svgedit-summary-label' => 'Xulasa bıvurne',
+	'svgedit-summary-default' => '/* Ebe svg-edit vurna */',
+	'svgedit-editor-save-close' => 'Qeyd ke u bırace',
+	'svgedit-editor-close' => 'Bıtexelne',
 	'svgedit-edit-tab' => 'Xizan bıvurne',
 	'svgedit-toolbar-insert' => 'SVG xizkerden',
 );
