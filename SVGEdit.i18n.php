@@ -418,9 +418,12 @@ $messages['ja'] = array(
 $messages['ka'] = array(
 	'svgedit-editbutton-edit' => 'ნახატის რედაქტირება',
 	'svgedit-summary-label' => 'რეზიუმეს რედაქტირება',
+	'svgedit-summary-default' => '/* შეცვლილია svg-edit-ში */',
 	'svgedit-editor-save-close' => 'შენახვა და დახურვა',
 	'svgedit-editor-close' => 'გაუქმება',
+	'svgedit-desc' => 'SVG გამოსახულების რედაქტირება ბრაუზერში [http://code.google.com/p/svg-edit/ SVG-Edit]-ით',
 	'svgedit-edit-tab' => 'ნახატის რედაქტირება',
+	'svgedit-edit-tab-tooltip' => 'თქვენ შეგიძლიათ ამ SVG გამოსახულების რედაქტირება თქვენ ბრაუზერში',
 	'svgedit-toolbar-insert' => 'SVG ხატვა',
 );
 
