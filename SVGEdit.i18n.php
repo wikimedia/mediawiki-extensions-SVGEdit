@@ -221,6 +221,14 @@ $messages['eu'] = array(
 	'svgedit-editor-close' => 'Utzi',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'svgedit-editor-save-close' => 'ذخیره و بستن',
+	'svgedit-editor-close' => 'لغو',
+);
+
 /** Finnish (suomi)
  * @author Crt
  * @author Linnea
