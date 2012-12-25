@@ -211,6 +211,7 @@ $messages['es'] = array(
  */
 $messages['et'] = array(
 	'svgedit-editor-save-close' => 'Salvesta ja sule',
+	'svgedit-editor-close' => 'Loobu',
 );
 
 /** Basque (euskara)
