@@ -688,6 +688,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'svgedit-summary-label' => 'සාරාංශය සංස්කරණය කරන්න',
 	'svgedit-editor-close' => 'අත් හරින්න',
 );
 
