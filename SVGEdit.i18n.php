@@ -688,8 +688,12 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'svgedit-editbutton-edit' => 'සංස්කරණ සිත්තම',
 	'svgedit-summary-label' => 'සාරාංශය සංස්කරණය කරන්න',
+	'svgedit-editor-save-close' => 'සුරැකීමෙන් පසුව වසා දමන්න',
 	'svgedit-editor-close' => 'අත් හරින්න',
+	'svgedit-edit-tab' => 'සංස්කරණ සිත්තම',
+	'svgedit-toolbar-insert' => 'SVG සිත්තම',
 );
 
 /** Slovenian (slovenščina)
