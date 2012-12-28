@@ -498,6 +498,18 @@ $messages['lb'] = array(
 	'svgedit-toolbar-insert' => 'SVG-Zeechnung',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'svgedit-editbutton-edit' => 'Labot zīmējumu',
+	'svgedit-summary-label' => 'Labot kopsavilkumu',
+	'svgedit-summary-default' => '/* Labots ar svg-edit */',
+	'svgedit-editor-save-close' => 'Saglabāt un aizvērt',
+	'svgedit-editor-close' => 'Atcelt',
+	'svgedit-edit-tab' => 'Labot zīmējumu',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
