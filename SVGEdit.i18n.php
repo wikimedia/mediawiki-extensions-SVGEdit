@@ -134,6 +134,13 @@ $messages['ca'] = array(
 	'svgedit-toolbar-insert' => 'Dibuix SVG',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'svgedit-editor-close' => 'Zrušit',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Purodha
