@@ -3,16 +3,12 @@ open-source SVG-edit widget:
 
   http://code.google.com/p/svg-edit/
 
-SVG-edit 2.5.1 is included at present.
+A master copy of SVG-Edit from Google Code is used, embedded in an iframe.
 
-Current versions of most major browsers should work except for Internet Explorer
-(IE currently requires Chrome Frame plugin, or using the development version of
-SVG-edit 2.6 with IE9.)
+You may wish to make your own copy of SVG-Edit, either in this subdirectory or elsewhere;
+if so set $wgSVGEditEditor to point at the 'svg-editor.html' file.
 
-While the master code for this extension lives in Wikimedia's SVN repository, I also
-have a git repo where I may have some experimental branches:
-
-  http://gitorious.org/mediawiki-svgedit/mediawiki-svgedit
+Current versions of most major browsers should work except for Internet Explorer 8 and below.
 
 -- brion vibber (brion @ pobox.com)
 

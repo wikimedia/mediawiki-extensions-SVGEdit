@@ -95,15 +95,11 @@ $wgResourceModules += array(
 );
 
 // Can set to alternate SVGEdit URL to pull the editor's HTML/CSS/JS/SVG
-// resources from another domain; will still need to have the MediaWiki
-// extension in it, so use a checkout of this extension rather than a
-// master copy of svg-edit on its own.
+// resources from another domain.
 //
-// Example: $wgSVGEditEditor = 'http://toolserver.org/~brion/svg-edit/svg-editor.html';
+// By default, a master copy from Google Code is used. This may or may not be stable.
 //
-// If left empty, the local copy will be used on the main MediaWiki domain.
-//
-$wgSVGEditEditor = false;
+$wgSVGEditEditor = 'http://svg-edit.googlecode.com/svn/trunk/editor/svg-editor.html';
 
 // Set to enable experimental triggers for SVG editing within article views.
 // Not yet recommended.
