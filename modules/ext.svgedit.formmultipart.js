@@ -60,7 +60,7 @@ FormMultipart.prototype.addPart = function(params) {
 		this.append('Content-Type: ' + params.type);
 	}
 	if (params.encoding) {
-		this.append('Content-Transfer-Encoding: ' + params.encoding)
+		this.append('Content-Transfer-Encoding: ' + params.encoding);
 	}
 
 	this.append('');
@@ -72,8 +72,8 @@ FormMultipart.prototype.addPart = function(params) {
 };
 
 FormMultipart.prototype.toString = function() {
-	var crlf = "\r\n";
-	return this.out.join(crlf) + (crlf + "--" + this.boundary + "--" + crlf);
+	var crlf = '\r\n';
+	return this.out.join(crlf) + (crlf + '--' + this.boundary + '--' + crlf);
 };
 
 FormMultipart.prototype.contentType = function() {

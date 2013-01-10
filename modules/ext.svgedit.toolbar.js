@@ -1,13 +1,13 @@
-/* 
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
 
-$( document ).ready( function() {
+jQuery( document ).ready( function( $ ) {
 
 	var safeFilename = function(str) {
 		// hack hack
-		return str.replace(/[^A-Za-z0-9- ]/, '').replace(/[\s_]+/, ' ');
+		return str.replace(/[^A-Za-z0-9\- ]/, '').replace(/[\s_]+/, ' ');
 	};
 	var handyDate = function() {
 		var now = new Date();
@@ -15,9 +15,9 @@ $( document ).ready( function() {
 			if (n < 10) {
 				return '0' + n;
 			} else {
-				return new String(n);
+				return String(n);
 			}
-		}
+		};
 		return now.getUTCFullYear() +
 			'-' +
 			pad2(now.getUTCMonth()) +

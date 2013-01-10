@@ -127,7 +127,7 @@ var mwSVG = window.mwSVG = {
 				data: data
 			});
 
-			var onError = function(xhr, textStatus, errorThrown) {
+			var onError = function() {
 				alert('Error saving file.');
 			};
 

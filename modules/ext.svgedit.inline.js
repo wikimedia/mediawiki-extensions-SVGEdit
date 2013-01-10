@@ -29,11 +29,11 @@ $(document).ready(function() {
 				}
 			},
 			leaveopen: true // Our reload will get rid of the UI.
-		})
+		});
 	};
 
 	function setupImage(link) {
-		var button = $('<button></button>')
+		var button = $('<button>')
 			.text(mw.msg('svgedit-editbutton-edit'))
 			.click(function() {
 				trigger(link);
@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 	$('a.image').each(function() {
 		setupImage(this);
-	})
+	});
 });
 
 })(jQuery, mediaWiki);

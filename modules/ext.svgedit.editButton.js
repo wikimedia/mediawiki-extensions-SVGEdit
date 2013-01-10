@@ -15,9 +15,9 @@ $(document).ready(function() {
 		return;
 	}
 
-	if (wgCanonicalNamespace == 'File'
-		&& wgAction == 'view'
-		&& wgTitle.match(/\.svg$/i)) {
+	if (wgCanonicalNamespace === 'File' &&
+		wgAction === 'view' &&
+		wgTitle.match(/\.svg$/i)) {
 
 		var trigger = function() {
 			mw.svgedit.open({
@@ -30,7 +30,7 @@ $(document).ready(function() {
 					}
 				},
 				leaveopen: true // Our reload will get rid of the UI.
-			})
+			});
 		};
 
 		var tab = mw.util.addPortletLink('p-cactions',
@@ -54,7 +54,7 @@ $(document).ready(function() {
 			});
 		$('.fullMedia').append(button);
 
-		if (window.location.hash.indexOf('!action=svgedit') != -1) {
+		if (window.location.hash.indexOf('!action=svgedit') !== -1) {
 			window.location.hash = '';
 			trigger();
 		}

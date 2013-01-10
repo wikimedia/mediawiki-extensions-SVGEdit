@@ -28,7 +28,7 @@ mw.svgedit = {
 		}
 		mw.svgedit.isOpen = true;
 
-		if ("filename" in options) {
+		if ('filename' in options) {
 			// Get some basic info on the image before we go barrelling in...
 			mwSVG.fetchInfo(options.filename, function(imageinfo) {
 				mw.svgedit.openEditor(options, imageinfo);
@@ -53,8 +53,8 @@ mw.svgedit = {
 		var svgedit = null; // to be filled out when iframe is loaded
 		var saved = false;
 
-		var origWidth = parseInt(imageinfo.width) || 640;
-		var origHeight = parseInt(imageinfo.height) || 480;
+		var origWidth = parseInt(imageinfo.width, 10) || 640;
+		var origHeight = parseInt(imageinfo.height, 10) || 480;
 		if (origWidth && origHeight) {
 			// Initialize the canvas dimensions to the image's defined size...
 			url += '?dimensions=' + origWidth + ',' + origHeight;
@@ -141,8 +141,8 @@ mw.svgedit = {
 				spinnerOn();
 				svgedit.getSvgString()(function(svg) {
 					var comment = $('#mw-svgedit-summary').val();
-					mwSVG.saveSVG(filename, svg, comment, function(data, textStatus, xhr) {
-						if (data.upload && data.upload.result == "Success") {
+					mwSVG.saveSVG(filename, svg, comment, function(data) {
+						if (data.upload && data.upload.result === 'Success') {
 							saved = true;
 							closeEditor();
 						} else if (data.error && data.error.info) {
@@ -177,7 +177,7 @@ mw.svgedit = {
 					};
 
 					var loadApiProxy = function() {
-						mwSVG.fetchSVG(filename, function(xmlSource, textStatus, xhr) {
+						mwSVG.fetchSVG(filename, function(xmlSource) {
 							open(xmlSource);
 						}, function() {
 							alert('failllll');
@@ -185,7 +185,9 @@ mw.svgedit = {
 					};
 
 					mwSVG.fetchFile(imageinfo.url, function(xmlSource, textStatus, xhr) {
-						if (xmlSource == '' && xhr.responseXML == null) {
+						if (xmlSource === '' &&
+							(xhr.responseXML === null || xhr.responseXML === undefined)
+						) {
 							loadApiProxy();
 						}
 						open(xmlSource);
