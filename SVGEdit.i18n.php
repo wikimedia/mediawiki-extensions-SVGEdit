@@ -464,7 +464,7 @@ $messages['ko'] = array(
 	'svgedit-editor-close' => '취소',
 	'svgedit-desc' => '브라우저 내  [http://code.google.com/p/svg-edit/ SVG-Edit]로 SVG 그리기 편집',
 	'svgedit-edit-tab' => '그리기 편집',
-	'svgedit-edit-tab-tooltip' => '당신의 브라우저에 이 SVG 그리기를 편집할 수 있습니다',
+	'svgedit-edit-tab-tooltip' => '브라우저에 이 SVG 그리기를 편집할 수 있습니다',
 	'svgedit-toolbar-insert' => 'SVG 그리기',
 );
 
