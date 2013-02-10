@@ -810,6 +810,15 @@ $messages['tl'] = array(
 	'svgedit-toolbar-insert' => 'Pagguhit ng SVG',
 );
 
+/** Turkish (Türkçe)
+ * @author Emperyan
+ */
+$messages['tr'] = array(
+	'svgedit-summary-label' => 'Değişiklik özeti',
+	'svgedit-editor-save-close' => 'Kaydet ve kapat',
+	'svgedit-editor-close' => 'İptal',
+);
+
 /** Ukrainian (українська)
  * @author Base
  * @author Тест
