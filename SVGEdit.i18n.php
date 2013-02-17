@@ -28,6 +28,7 @@ $messages['en'] = array(
  * @author Brion Vibber <brion@pobox.com>
  * @author EugeneZelenko
  * @author Purodha
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'svgedit-editbutton-edit' => 'Text label on edit button on SVG File: pages',
@@ -35,8 +36,8 @@ $messages['qqq'] = array(
 	'svgedit-editor-save-close' => 'Editor button to save the SVG file and close the editor',
 	'svgedit-editor-close' => 'Editor button to close the editor without saving
 {{Identical|Cancel}}',
-	'svgedit-desc' => '{{desc}}
-Do not alter the link target URL: <code lang="en">http://code.google.com/p/svg-edit/</code>',
+	'svgedit-desc' => '{{desc|name=SVG Edit|url=http://www.mediawiki.org/wiki/Extension:SVGEdit}}
+{{doc-important|Do not alter the link target URL "<code>http://code.google.com/p/svg-edit/</code>".}}',
 );
 
 /** Arabic (العربية)
