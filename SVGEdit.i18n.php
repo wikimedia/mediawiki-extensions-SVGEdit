@@ -518,6 +518,21 @@ $messages['lv'] = array(
 	'svgedit-edit-tab' => 'Labot zīmējumu',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'svgedit-editbutton-edit' => 'Suntiang gambar',
+	'svgedit-summary-label' => 'Ringkasan suntiangan:',
+	'svgedit-summary-default' => '/* Diubah jo svg-edit */',
+	'svgedit-editor-save-close' => 'Simpan lalu tutuik',
+	'svgedit-editor-close' => 'Batal',
+	'svgedit-desc' => 'Panyuntiangan gambar SVG lewaik paramban jo [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Suntiang gambar',
+	'svgedit-edit-tab-tooltip' => 'Sanak dapek manyuntiang gambar SVG ko pado paramban Sanak',
+	'svgedit-toolbar-insert' => 'Gambar SVG',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
