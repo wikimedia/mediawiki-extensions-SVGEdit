@@ -703,6 +703,15 @@ $messages['ro'] = array(
 	'svgedit-editor-close' => 'Renunță',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'svgedit-editbutton-edit' => "Cange 'u disegne",
+	'svgedit-summary-label' => "Cange 'u riepiloghe",
+	'svgedit-editor-close' => 'Annulle',
+);
+
 /** Russian (русский)
  * @author Purodha
  * @author Александр Сигачёв
