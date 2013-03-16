@@ -488,6 +488,7 @@ $messages['ksh'] = array(
  * @author George Animal
  */
 $messages['ku-latn'] = array(
+	'svgedit-summary-label' => 'Kurteyê biguherîne',
 	'svgedit-editor-close' => 'Betal bike',
 );
 
