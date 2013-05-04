@@ -912,10 +912,17 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
+	'svgedit-editbutton-edit' => '編輯繪圖',
 	'svgedit-summary-label' => '編輯摘要',
+	'svgedit-summary-default' => '/* 於 svg-edit 中修改 */',
 	'svgedit-editor-save-close' => '保存和關閉',
 	'svgedit-editor-close' => '取消',
+	'svgedit-desc' => '在瀏覽器中使用[http://code.google.com/p/svg-edit/ SVG-Edit]編輯SVG矢量圖',
+	'svgedit-edit-tab' => '編輯繪圖',
+	'svgedit-edit-tab-tooltip' => '您可以於您的瀏覽器中編輯此SVG繪圖',
+	'svgedit-toolbar-insert' => 'SVG繪圖',
 );
