@@ -710,7 +710,11 @@ $messages['ro'] = array(
 $messages['roa-tara'] = array(
 	'svgedit-editbutton-edit' => "Cange 'u disegne",
 	'svgedit-summary-label' => "Cange 'u riepiloghe",
+	'svgedit-summary-default' => "/* Cangiate jndr'à l'svg-edit */",
+	'svgedit-editor-save-close' => 'Reggistre e achiude',
 	'svgedit-editor-close' => 'Annulle',
+	'svgedit-edit-tab' => "Cange 'u disegne",
+	'svgedit-toolbar-insert' => 'Disegne SVG',
 );
 
 /** Russian (русский)
