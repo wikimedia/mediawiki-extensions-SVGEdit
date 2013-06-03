@@ -590,7 +590,7 @@ $messages['mt'] = array(
 	'svgedit-editor-close' => 'Ħassar',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -620,7 +620,7 @@ $messages['nl'] = array(
 	'svgedit-toolbar-insert' => 'SVG-tekening',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Psubhashish
  */
 $messages['or'] = array(
