@@ -713,7 +713,9 @@ $messages['roa-tara'] = array(
 	'svgedit-summary-default' => "/* Cangiate jndr'à l'svg-edit */",
 	'svgedit-editor-save-close' => 'Reggistre e achiude',
 	'svgedit-editor-close' => 'Annulle',
+	'svgedit-desc' => "'U cangiamende jndr'à 'u browser de disegne SVG cu [http://code.google.com/p/svg-edit/ SVG-Edit]",
 	'svgedit-edit-tab' => "Cange 'u disegne",
+	'svgedit-edit-tab-tooltip' => "Tu puè cangià stu disegne SVG jndr'à 'u browser tune",
 	'svgedit-toolbar-insert' => 'Disegne SVG',
 );
 
