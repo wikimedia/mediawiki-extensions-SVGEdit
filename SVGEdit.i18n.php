@@ -241,12 +241,18 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Crt
  * @author Linnea
+ * @author Stryn
  */
 $messages['fi'] = array(
 	'svgedit-editbutton-edit' => 'Muokkaa piirrosta',
 	'svgedit-summary-label' => 'Yhteenveto',
+	'svgedit-summary-default' => '/* Muutettu svg-muokkaimella */',
 	'svgedit-editor-save-close' => 'Tallenna ja sulje',
 	'svgedit-editor-close' => 'Peruuta',
+	'svgedit-desc' => 'Muokkaa SVG-piirustuksia selaimessa [http://code.google.com/p/svg-edit/ SVG-muokkaimella]',
+	'svgedit-edit-tab' => 'Muokkaa piirrosta',
+	'svgedit-edit-tab-tooltip' => 'Voit muokata tätä SVG-piirustusta selaimessa',
+	'svgedit-toolbar-insert' => 'SVG-piirustus',
 );
 
 /** French (français)
