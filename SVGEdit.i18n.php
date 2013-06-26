@@ -135,6 +135,13 @@ $messages['ca'] = array(
 	'svgedit-toolbar-insert' => 'Dibuix SVG',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'svgedit-editor-close' => 'Цаоьшу',
+);
+
 /** Czech (česky)
  * @author Vks
  */
