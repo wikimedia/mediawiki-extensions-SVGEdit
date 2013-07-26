@@ -139,6 +139,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'svgedit-editor-save-close' => 'Ӏалаш йаь/дӀачӀагӀа',
 	'svgedit-editor-close' => 'Цаоьшу',
 );
 
