@@ -634,6 +634,21 @@ $messages['nl'] = array(
 	'svgedit-toolbar-insert' => 'SVG-tekening',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'svgedit-editbutton-edit' => 'Modificar lo dessenh',
+	'svgedit-summary-label' => 'Resumit de la modificacion',
+	'svgedit-summary-default' => '/* Modificada amb svg-edit */',
+	'svgedit-editor-save-close' => 'Enregistrar e tampar',
+	'svgedit-editor-close' => 'Anullar',
+	'svgedit-desc' => 'Modificacion dels dessenhs al format SVG dins vòstre navigador en utilizant [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'Modificar lo dessenh',
+	'svgedit-edit-tab-tooltip' => 'Podètz modificar aqueste dessenh SVG dins vòstre navigador',
+	'svgedit-toolbar-insert' => 'Dessenh SVG',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Psubhashish
  */
