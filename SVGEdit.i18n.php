@@ -691,7 +691,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'svgedit-editor-close' => 'ناګارل',
+	'svgedit-editor-close' => 'ناگارل',
 );
 
 /** Portuguese (português)
