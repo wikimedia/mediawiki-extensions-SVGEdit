@@ -48,10 +48,8 @@ class SVGEditHooks {
 	 * @param $vars array of vars
 	 */
 	public static function makeGlobalVariablesScript( &$vars ) {
-		global $wgTitle, $wgSVGEditEditor;
-		#if( self::trigger( $wgTitle ) ) {
-			$vars['wgSVGEditEditor'] = $wgSVGEditEditor;
-		#}
+		global $wgSVGEditEditor;
+		$vars['wgSVGEditEditor'] = $wgSVGEditEditor;
 		return true;
 	}
 
