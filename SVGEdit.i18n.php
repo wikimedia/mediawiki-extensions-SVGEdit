@@ -143,7 +143,7 @@ $messages['ce'] = array(
 	'svgedit-editor-close' => 'Цаоьшу',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
