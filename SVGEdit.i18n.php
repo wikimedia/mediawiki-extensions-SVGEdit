@@ -295,6 +295,14 @@ $messages['frp'] = array(
 	'svgedit-toolbar-insert' => 'Dèssin SVG',
 );
 
+/** Western Frisian (Frysk)
+ * @author Kening Aldgilles
+ */
+$messages['fy'] = array(
+	'svgedit-editor-save-close' => 'Fêstlizze en slute',
+	'svgedit-editor-close' => 'Ofbrekke',
+);
+
 /** Irish (Gaeilge)
  * @author පසිඳු කාවින්ද
  */
