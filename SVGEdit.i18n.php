@@ -240,9 +240,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'svgedit-summary-label' => 'ویرایش خلاصه',
+	'svgedit-summary-default' => '/* اصلاح شده در svg-edit */',
 	'svgedit-editor-save-close' => 'ذخیره و بستن',
 	'svgedit-editor-close' => 'لغو',
 );
