@@ -76,12 +76,13 @@ $messages['az'] = array(
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
+ * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'svgedit-editbutton-edit' => 'Рэдагаваць малюнак',
 	'svgedit-summary-label' => 'Кароткае апісаньне рэдагаваньня',
 	'svgedit-summary-default' => '/* Зьменена ў svg-edit */',
-	'svgedit-editor-save-close' => 'Захаваць і зачыніць',
+	'svgedit-editor-save-close' => 'Захаваць і закрыць',
 	'svgedit-editor-close' => 'Скасаваць',
 	'svgedit-desc' => 'Рэдагаваньне SVG-малюнкаў у браўзэры з дапамогай [http://code.google.com/p/svg-edit/ SVG-Edit]',
 	'svgedit-edit-tab' => 'Рэдагаваць малюнак',
