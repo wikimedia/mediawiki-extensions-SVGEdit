@@ -245,10 +245,15 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'svgedit-editbutton-edit' => 'ویرایش نقشه‌کشی',
 	'svgedit-summary-label' => 'ویرایش خلاصه',
 	'svgedit-summary-default' => '/* اصلاح شده در svg-edit */',
 	'svgedit-editor-save-close' => 'ذخیره و بستن',
 	'svgedit-editor-close' => 'لغو',
+	'svgedit-desc' => 'ویرایش در مرورگر نقاشی‌های اس‌وی‌جی با [http://code.google.com/p/svg-edit/ SVG-Edit]',
+	'svgedit-edit-tab' => 'ویرایش نقشه‌کشی',
+	'svgedit-edit-tab-tooltip' => 'شما می توانید این نقاشی اس‌وی‌جی را در مرورگر خود ویرایش کنید',
+	'svgedit-toolbar-insert' => 'نقاشی اس‌وی‌جی',
 );
 
 /** Finnish (suomi)
