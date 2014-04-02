@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Wrapper to integrate SVG-edit in-browser vector graphics editor in MediaWiki.
  * http://www.mediawiki.org/wiki/Extension:SVGEdit
@@ -18,6 +17,8 @@ $wgExtensionCredits['other'][] = array(
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SVGEdit',
 	'descriptionmsg' => 'svgedit-desc',
 );
+
+$wgMessagesDirs['SVGEdit'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SVGEdit'] =  dirname(__FILE__) . '/SVGEdit.i18n.php';
 
 $wgHooks['BeforePageDisplay'][] = 'SVGEditHooks::beforePageDisplay';
