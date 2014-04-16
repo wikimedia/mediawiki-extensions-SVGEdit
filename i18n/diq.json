@@ -1,15 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-            "Erdemaslancan",
-            "Mirzali"
-        ]
-    },
-    "svgedit-editbutton-edit": "Taslağ vıraze",
-    "svgedit-summary-label": "Xulasa bıvurne",
-    "svgedit-summary-default": "/* Ebe svg-edit vurna */",
-    "svgedit-editor-save-close": "Qeyd ke u bırace",
-    "svgedit-editor-close": "Bıtexelne",
-    "svgedit-edit-tab": "Xizan bıvurne",
-    "svgedit-toolbar-insert": "SVG xizkerden"
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Mirzali"
+		]
+	},
+	"svgedit-editbutton-edit": "Taslağ vıraze",
+	"svgedit-summary-label": "Xulasa bıvurne",
+	"svgedit-summary-default": "/* Ebe svg-edit vurna */",
+	"svgedit-editor-save-close": "Qeyd ke u bırace",
+	"svgedit-editor-close": "Bıtexelne",
+	"svgedit-edit-tab": "Xizan bıvurne",
+	"svgedit-toolbar-insert": "SVG xizkerden"
 }

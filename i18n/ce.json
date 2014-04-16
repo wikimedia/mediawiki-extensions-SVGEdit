@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Умар"
-        ]
-    },
-    "svgedit-summary-label": "Хийцамах лаьцна",
-    "svgedit-editor-save-close": "Ӏалаш йаь/дӀачӀагӀа",
-    "svgedit-editor-close": "Цаоьшу"
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"svgedit-summary-label": "Хийцамах лаьцна",
+	"svgedit-editor-save-close": "Ӏалаш йаь/дӀачӀагӀа",
+	"svgedit-editor-close": "Цаоьшу"
 }

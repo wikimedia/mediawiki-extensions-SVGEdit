@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Emperyan"
-        ]
-    },
-    "svgedit-summary-label": "Değişiklik özeti",
-    "svgedit-editor-save-close": "Kaydet ve kapat",
-    "svgedit-editor-close": "İptal"
+	"@metadata": {
+		"authors": [
+			"Emperyan"
+		]
+	},
+	"svgedit-summary-label": "Değişiklik özeti",
+	"svgedit-editor-save-close": "Kaydet ve kapat",
+	"svgedit-editor-close": "İptal"
 }

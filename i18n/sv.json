@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "WikiPhoenix"
-        ]
-    },
-    "svgedit-editbutton-edit": "Redigera teckning",
-    "svgedit-summary-label": "Redigeringssammanfattning",
-    "svgedit-summary-default": "/* Redigerad i svg-edit */",
-    "svgedit-editor-save-close": "Spara och stäng",
-    "svgedit-editor-close": "Avbryt",
-    "svgedit-desc": "Redigera SVG-teckningar i webbläsaren med [http://code.google.com/p/svg-edit/ SVG-Edit]",
-    "svgedit-edit-tab": "Redigera teckning",
-    "svgedit-edit-tab-tooltip": "Du kan redigera den här SVG-teckningen i din webbläsare",
-    "svgedit-toolbar-insert": "SVG-teckning"
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"svgedit-editbutton-edit": "Redigera teckning",
+	"svgedit-summary-label": "Redigeringssammanfattning",
+	"svgedit-summary-default": "/* Redigerad i svg-edit */",
+	"svgedit-editor-save-close": "Spara och stäng",
+	"svgedit-editor-close": "Avbryt",
+	"svgedit-desc": "Redigera SVG-teckningar i webbläsaren med [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Redigera teckning",
+	"svgedit-edit-tab-tooltip": "Du kan redigera den här SVG-teckningen i din webbläsare",
+	"svgedit-toolbar-insert": "SVG-teckning"
 }
