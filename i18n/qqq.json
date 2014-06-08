@@ -9,6 +9,7 @@
 		]
 	},
 	"svgedit-editbutton-edit": "Text label on edit button on SVG File: pages",
+	"svgedit-summary-label": "{{Identical|Edit summary}}",
 	"svgedit-summary-default": "The pieces <code>/*</code> and <code>*/</code> must mot be modified.",
 	"svgedit-editor-save-close": "Editor button to save the SVG file and close the editor",
 	"svgedit-editor-close": "Editor button to close the editor without saving\n{{Identical|Cancel}}",
