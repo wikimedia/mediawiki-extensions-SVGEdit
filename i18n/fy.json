@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kening Aldgilles"
+			"Kening Aldgilles",
+			"Robin0van0der0vliet"
 		]
 	},
 	"svgedit-editor-save-close": "Fêstlizze en slute",
-	"svgedit-editor-close": "Ofbrekke"
+	"svgedit-editor-close": "Annulearje"
 }
