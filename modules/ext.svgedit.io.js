@@ -13,7 +13,7 @@ var mwSVG = window.mwSVG = {
 	 * @return string URL to MediaWiki API.
 	 */
 	api: function() {
-		return mw.config.get( 'wgScriptPath' ) + '/api.php';
+		return mediaWiki.config.get( 'wgScriptPath' ) + '/api.php';
 	},
 
 	/**
@@ -30,9 +30,9 @@ var mwSVG = window.mwSVG = {
 			titles: 'File:' + target,
 			iiprop: 'size|url|mime'
 		};
-		$.get(mwSVG.api(), params, function(data) {
+		jQuery.get(mwSVG.api(), params, function(data) {
 			var imageinfo = {};
-			$.each(data.query.pages, function(key, pageInfo) {
+			jQuery.each(data.query.pages, function(key, pageInfo) {
 				if (pageInfo.imageinfo && pageInfo.imageinfo.length) {
 					imageinfo = pageInfo.imageinfo[0];
 				}
@@ -52,7 +52,7 @@ var mwSVG = window.mwSVG = {
 	 */
 	fetchFile: function(url, callback, onerror) {
 		// if proxy blah blah
-		$.ajax({
+		jQuery.ajax({
 			url: url,
 			success: callback,
 			error: onerror,
@@ -74,7 +74,7 @@ var mwSVG = window.mwSVG = {
 			file: 'File:' + target,
 			format: 'xml'
 		};
-		$.get(mwSVG.api(), params, callback, 'text');
+		jQuery.get(mwSVG.api(), params, callback, 'text');
 	},
 
 	/**
@@ -91,9 +91,9 @@ var mwSVG = window.mwSVG = {
 			intoken: 'edit',
 			titles: 'File:' + target
 		};
-		$.get(mwSVG.api(), params, function(data) {
+		jQuery.get(mwSVG.api(), params, function(data) {
 			var token = null;
-			$.each(data.query.pages, function(key, pageInfo) {
+			jQuery.each(data.query.pages, function(key, pageInfo) {
 				token = pageInfo.edittoken;
 			});
 			callback(token);
@@ -140,7 +140,7 @@ var mwSVG = window.mwSVG = {
 				success: callback,
 				error: onError
 			};
-			$.ajax(ajaxSettings);
+			jQuery.ajax(ajaxSettings);
 		});
 	}
 };

@@ -3,9 +3,11 @@
  * @copyright 2010-2011 Brion Vibber <brion@pobox.com>
  */
 
-(function($, mw) {
+( function( $, mw ) {
+	var mwSVG;
 
 mw.svgedit = {
+
 	isOpen: false,
 
 	init: function() {
@@ -42,8 +44,9 @@ mw.svgedit = {
 	 * @access private
 	 */
 	openEditor: function(options, imageinfo) {
+		var wgSVGEditEditor;
 		var url = wgSVGEditEditor ||
-			(wgScriptPath + '/extensions/SVGEdit/svg-edit/svg-editor.html');
+			(mw.config.get( 'wgScriptPath' ) + '/extensions/SVGEdit/svg-edit/svg-editor.html');
 
 		var filename = options.filename || null;
 		var replace = options.replace || null;
@@ -212,4 +215,4 @@ mw.svgedit = {
 	}
 };
 
-})(jQuery, mediaWiki);
+}( jQuery, mediaWiki ) );

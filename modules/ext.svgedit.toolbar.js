@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-jQuery( document ).ready( function( $ ) {
+jQuery( document ).ready( function( $, mw ) {
 
 	var safeFilename = function(str) {
 		// hack hack
@@ -31,7 +31,7 @@ jQuery( document ).ready( function( $ ) {
 			pad2(now.getUTCSeconds());
 	};
 	var callback = function(context) {
-		var filename = safeFilename(wgTitle) + ' drawing ' + handyDate() + '.svg';
+		var filename = safeFilename( mw.config.get( 'wgTitle' ) ) + ' drawing ' + handyDate() + '.svg';
 		var form = context.$ui.closest('form');
 		mediaWiki.svgedit.open({
 			filename: filename,
@@ -56,7 +56,7 @@ jQuery( document ).ready( function( $ ) {
 			'newsvg': {
 				'labelMsg': 'svgedit-toolbar-insert',
 				'type': 'button',
-				'icon': wgExtensionAssetsPath + '/SVGEdit/modules/images/svgedit-toolbar-icon.png',
+				'icon': mw.config.get( 'wgExtensionAssetsPath' ) + '/SVGEdit/modules/images/svgedit-toolbar-icon.png',
 				'action': {
 					/*
 					'type': 'encapsulate',
@@ -70,4 +70,4 @@ jQuery( document ).ready( function( $ ) {
 				}
 		}
 	}});
-});
+}( jQuery, mediaWiki ) );

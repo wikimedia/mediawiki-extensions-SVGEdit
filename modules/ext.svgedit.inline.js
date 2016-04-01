@@ -3,7 +3,7 @@
  * @copyright 2011 Brion Vibber <brion@pobox.com>
  */
 
-(function($, mw) {
+( function( $, mw ) {
 
 $(document).ready(function() {
 	// We probably should check http://www.w3.org/TR/SVG11/feature#SVG-dynamic
@@ -46,4 +46,4 @@ $(document).ready(function() {
 	});
 });
 
-})(jQuery, mediaWiki);
+}( jQuery, mediaWiki ) );

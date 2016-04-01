@@ -56,6 +56,10 @@ var blah = new embedded_svg_edit(window.frames['svgedit']);
 blah.clearSelection("woot","blah",1337,[1,2,3,4,5,"moo"],-42,{a: "tree",b:6, c: 9})(function(){console.log("GET DATA",arguments)})
 */
 
+/*jshint -W061 */
+
+/*jshint -W059 */
+
 function embedded_svg_edit(frame){
   //initialize communication
   this.frame = frame;
@@ -154,6 +158,3 @@ embedded_svg_edit.prototype.send = function(name, args, callback){
   return cbid;
   //this.stack.shift()("svgCanvas['"+name+"']("+argstr.join(",")+")")
 };
-
-
-

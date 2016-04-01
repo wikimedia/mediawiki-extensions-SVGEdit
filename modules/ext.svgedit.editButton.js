@@ -3,7 +3,7 @@
  * @copyright 2010 Brion Vibber <brion@pobox.com>
  */
 
-(function($, mw) {
+( function( $, mw ) {
 
 $(document).ready(function() {
 	// We probably should check http://www.w3.org/TR/SVG11/feature#SVG-dynamic
@@ -15,13 +15,13 @@ $(document).ready(function() {
 		return;
 	}
 
-	if (wgCanonicalNamespace === 'File' &&
-		wgAction === 'view' &&
-		wgTitle.match(/\.svg$/i)) {
+	if ( mw.config.get( 'wgCanonicalNamespace' ) === 'File' &&
+		mw.config.get( 'wgAction' ) === 'view' &&
+		mw.config.get( 'wgTitle' ).match(/\.svg$/i)) {
 
 		var trigger = function() {
 			mw.svgedit.open({
-				filename: wgTitle,
+				filename: mw.config.get( 'wgTitle' ),
 				replace: '#file',
 				onclose: function(filename) {
 					if (filename) {
@@ -61,4 +61,4 @@ $(document).ready(function() {
 	}
 });
 
-})(jQuery, mediaWiki);
+}( jQuery, mediaWiki ) );
