@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Kumkumuk"
 		]
 	},
 	"svgedit-editbutton-edit": "Taslağ vıraze",
 	"svgedit-summary-label": "Xulasa bıvurne",
 	"svgedit-summary-default": "/* Ebe svg-edit vurna */",
 	"svgedit-editor-save-close": "Qeyd ke u bırace",
-	"svgedit-editor-close": "Bıtexelne",
+	"svgedit-editor-close": "Peyd kı",
 	"svgedit-edit-tab": "Xizan bıvurne",
 	"svgedit-toolbar-insert": "SVG xizkerden"
 }
