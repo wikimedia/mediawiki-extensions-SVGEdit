@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Obaid Raza"
+			"Obaid Raza",
+			"Muhammad Shuaib"
 		]
 	},
 	"svgedit-editbutton-edit": "تصویر میں ترمیم کریں",
@@ -12,6 +13,6 @@
 	"svgedit-editor-close": "منسوخ",
 	"svgedit-desc": "براؤزر میں ترمیم ایس وی جی تصویر مع [http://code.google.com/p/svg-edit/ ایس وی جی-ایڈٹ]",
 	"svgedit-edit-tab": "تصویر میں ترمیم کریں",
-	"svgedit-edit-tab-tooltip": "آپ ایس وی جی تصویر کی براؤزر میں ترمیم کر سکتے ہیں",
+	"svgedit-edit-tab-tooltip": "آپ براؤزر کی مدد سے ایس وی جی تصویر میں ترمیم کر سکتے ہیں",
 	"svgedit-toolbar-insert": "ایس وی جی تصویر"
 }
