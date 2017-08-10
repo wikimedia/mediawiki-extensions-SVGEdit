@@ -116,8 +116,8 @@ mw.svgedit = {
 		};
 
 		var spinnerOn = function() {
-			$('#mw-svgedit-summary').attr('disabled', 'disabled');
-			$('#mw-svgedit-save').attr('disabled', 'disabled');
+			$('#mw-svgedit-summary').prop('disabled', true);
+			$('#mw-svgedit-save').prop('disabled', true);
 			var offset = frame.offset();
 			spinner
 				.css('left', offset.left)
@@ -127,8 +127,8 @@ mw.svgedit = {
 				.show();
 		};
 		var spinnerOff = function() {
-			$('#mw-svgedit-summary').removeAttr('disabled');
-			$('#mw-svgedit-save').removeAttr('disabled');
+			$('#mw-svgedit-summary').prop('disabled', false);
+			$('#mw-svgedit-save').prop('disabled', false);
 			spinner.hide();
 		};
 
