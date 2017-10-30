@@ -19,7 +19,6 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgMessagesDirs['SVGEdit'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SVGEdit'] =  dirname(__FILE__) . '/SVGEdit.i18n.php';
 
 $wgHooks['BeforePageDisplay'][] = 'SVGEditHooks::beforePageDisplay';
 $wgHooks['MakeGlobalVariablesScript'][] = 'SVGEditHooks::makeGlobalVariablesScript';
