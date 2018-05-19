@@ -6,5 +6,8 @@
 	},
 	"svgedit-summary-label": "Σύνοψη επεξεργασίας",
 	"svgedit-editor-save-close": "Αποθήκευση και κλείσιμο",
-	"svgedit-editor-close": "Ακύρωση"
+	"svgedit-editor-close": "Ακύρωση",
+	"svgedit-edit-tab": "Επεξεργασία ζωγραφικής",
+	"svgedit-edit-tab-tooltip": "Μπορείτε να επεξεργαστείτε αυτή τη ζωγραφική SVG στον περιηγητή σας",
+	"svgedit-toolbar-insert": "Ζωγραφική SVG"
 }
