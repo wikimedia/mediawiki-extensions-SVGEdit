@@ -1,7 +1,7 @@
 <?php
 /**
  * Wrapper to integrate SVG-edit in-browser vector graphics editor in MediaWiki.
- * http://www.mediawiki.org/wiki/Extension:SVGEdit
+ * https://www.mediawiki.org/wiki/Extension:SVGEdit
  *
  * @copyright 2010 Brion Vibber <brion@pobox.com>
  *
