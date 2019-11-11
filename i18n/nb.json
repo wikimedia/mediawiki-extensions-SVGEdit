@@ -6,7 +6,7 @@
 		]
 	},
 	"svgedit-editbutton-edit": "Rediger tegning",
-	"svgedit-summary-label": "Redigeringssammendrag",
+	"svgedit-summary-label": "Redigeringsforklaring",
 	"svgedit-summary-default": "/* Endret i svg-edit */",
 	"svgedit-editor-save-close": "Lagre og lukk",
 	"svgedit-editor-close": "Avbryt",
