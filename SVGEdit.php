@@ -48,7 +48,7 @@ $wgResourceModules += array(
 			'svgedit-editor-close',
 		),
 		'dependencies' => array(
-			'jquery.ui.resizable'
+			'jquery.ui'
 		)
 	),
 );
