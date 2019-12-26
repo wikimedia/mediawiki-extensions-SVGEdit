@@ -5,7 +5,7 @@
 		]
 	},
 	"svgedit-editbutton-edit": "Modifica disegno",
-	"svgedit-summary-label": "Modifica oggetto",
+	"svgedit-summary-label": "Oggetto della modifica",
 	"svgedit-summary-default": "/* Modificato con svg-edit */",
 	"svgedit-editor-save-close": "Salva e chiudi",
 	"svgedit-editor-close": "Annulla",
