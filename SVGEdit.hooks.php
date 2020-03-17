@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 /**
  * SVGEdit extension: hooks
  * @copyright 2010 Brion Vibber <brion@pobox.com>
@@ -20,7 +23,7 @@ class SVGEditHooks {
 		$title = $out->getTitle();
 		$user = $out->getUser();
 		$modules = array();
-		if( self::trigger( $title ) ) {
+		if( self::trigger( $title, $user ) ) {
 			$modules[] = 'ext.svgedit.editButton';
 		}
 		if ($wgSVGEditInline) {
@@ -58,11 +61,21 @@ class SVGEditHooks {
 	 * Should the editor links trigger on this page?
 	 *
 	 * @param Title $title
+	 * @param User $user
 	 * @return boolean
 	 */
-	private static function trigger( $title ) {
-		return $title && $title->getNamespace() == NS_FILE &&
-			$title->userCan( 'edit' ) && $title->userCan( 'upload' );
+	private static function trigger( $title, User $user ) {
+		if ( $title && $title->getNamespace() == NS_FILE ) {
+			if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
+				// MW 1.33+
+				$pm = MediaWikiServices::getInstance()->getPermissionManager();
+				return $pm->userCan( 'edit', $user, $title ) &&
+					$pm->userCan( 'upload', $user, $title );
+			} else {
+				return $title->userCan( 'edit' ) && $title->userCan( 'upload' );
+			}
+		}
+		return false;
 	}
 
 }
