@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"svgedit-editbutton-edit": "Uredi crtež",
 	"svgedit-summary-label": "Opis izmene",
 	"svgedit-summary-default": "/* Izmenjeno SVG uređivačem */",
