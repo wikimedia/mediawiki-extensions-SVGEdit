@@ -4,3 +4,4 @@ svg-edit
 node_modules/**
 vendor/**
 composer.lock
+.eslintcache
