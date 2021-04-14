@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-jQuery( document ).ready( function ( $, mw ) {
+$( function ( $, mw ) {
 
 	var safeFilename = function ( str ) {
 		// hack hack

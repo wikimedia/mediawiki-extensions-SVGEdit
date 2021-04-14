@@ -6,7 +6,7 @@
 
 ( function ( $, mw ) {
 
-	$( document ).ready( function () {
+	$( function () {
 	// We probably should check http://www.w3.org/TR/SVG11/feature#SVG-dynamic
 	// but Firefox is missing a couple random subfeatures.
 	//
