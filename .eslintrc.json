@@ -12,7 +12,6 @@
 	"rules": {
 		"camelcase": "warn",
 		"new-cap": "warn",
-		"one-var": "warn",
 		"vars-on-top": "warn",
 		"no-undef": "warn",
 		"no-alert": "warn",
