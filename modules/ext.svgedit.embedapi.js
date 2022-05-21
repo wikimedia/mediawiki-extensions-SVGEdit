@@ -91,12 +91,12 @@ function embedded_svg_edit( frame ) {
 	// TODO: use AddEvent for Trident browsers, currently they dont support SVG, but they do support onmessage
 	var t = this;
 	window.addEventListener( 'message', function ( e ) {
-		if ( e.data.substr( 0, 4 ) === 'SVGe' ) { // because svg-edit is too longish
-			var data = e.data.substr( 4 ),
-				cbid = data.substr( 0, data.indexOf( ';' ) );
+		if ( e.data.slice( 0, 4 ) === 'SVGe' ) { // because svg-edit is too longish
+			var data = e.data.slice( 4 ),
+				cbid = data.slice( 0, Math.max( 0, data.indexOf( ';' ) ) );
 			if ( t.callbacks[ cbid ] ) {
-				if ( data.substr( 0, 6 ) !== 'error:' ) {
-					t.callbacks[ cbid ]( eval( '(' + data.substr( cbid.length + 1 ) + ')' ) );
+				if ( data.slice( 0, 6 ) !== 'error:' ) {
+					t.callbacks[ cbid ]( eval( '(' + data.slice( cbid.length + 1 ) + ')' ) );
 				} else {
 					t.callbacks[ cbid ]( data, 'error' );
 				}
