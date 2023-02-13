@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Emperyan"
+			"Emperyan",
+			"Rapsar"
 		]
 	},
-	"svgedit-editbutton-edit": "Çizimi düzenle",
+	"svgedit-editbutton-edit": "Çizimi değiştir",
 	"svgedit-summary-label": "Değişiklik özeti",
 	"svgedit-summary-default": "/* Svg-edit'de değiştirilmiş */",
 	"svgedit-editor-save-close": "Kaydet ve kapat",
 	"svgedit-editor-close": "İptal",
 	"svgedit-desc": "[https://code.google.com/p/svg-edit/ SVG-Edit] ile SVG çizimlerinin tarayıcı içinde düzenlenmesi",
-	"svgedit-edit-tab": "Çizimi düzenle",
+	"svgedit-edit-tab": "Çizimi değiştir",
 	"svgedit-edit-tab-tooltip": "Bu SVG çizimini tarayıcınızda düzenleyebilirsiniz.",
 	"svgedit-toolbar-insert": "SVG çizimi"
 }
