@@ -15,7 +15,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SVGEditHooks": "SVGEdit.hooks.php"
+		"SVGEditHooks": "SVGEditHooks.php"
 	},
 	"ResourceModules": {
 		"ext.svgedit.editor": {

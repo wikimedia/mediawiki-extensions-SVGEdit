@@ -15,31 +15,32 @@ class SVGEditHooks {
 	 *
 	 * Adds the modules to the page
 	 *
-	 * @param $out OutputPage output page
-	 * @param $skin Skin current skin
+	 * @param OutputPage $out output page
+	 * @param Skin $skin current skin
+	 * @return bool
 	 */
-	public static function beforePageDisplay( $out, $skin ) {
+	public static function beforePageDisplay( OutputPage $out, Skin $skin ) {
 		global $wgRequest, $wgSVGEditInline;
 		$title = $out->getTitle();
 		$user = $out->getUser();
-		$modules = array();
-		if( self::trigger( $title, $user ) ) {
+		$modules = [];
+		if ( self::trigger( $title, $user ) ) {
 			$modules[] = 'ext.svgedit.editButton';
 		}
-		if ($wgSVGEditInline) {
+		if ( $wgSVGEditInline ) {
 			// Experimental inline edit trigger.
 			// Potentially expensive and tricky as far as UI on article pages!
-			if( $user->isAllowed( 'upload' ) ) {
+			if ( $user->isAllowed( 'upload' ) ) {
 				$modules[] = 'ext.svgedit.inline';
 			}
 		}
-		if ($wgRequest->getVal('action') == 'edit') {
-			if( $user->isAllowed( 'upload' ) ) {
+		if ( $wgRequest->getVal( 'action' ) == 'edit' ) {
+			if ( $user->isAllowed( 'upload' ) ) {
 				$modules[] = 'ext.svgedit.toolbar';
 			}
 		}
-		if ($modules) {
-			$out->addModules($modules);
+		if ( $modules ) {
+			$out->addModules( $modules );
 		}
 		return true;
 	}
@@ -49,9 +50,10 @@ class SVGEditHooks {
 	 *
 	 * Exports a setting if necessary.
 	 *
-	 * @param $vars array of vars
+	 * @param array &$vars Array of vars
+	 * @return bool
 	 */
-	public static function makeGlobalVariablesScript( &$vars ) {
+	public static function makeGlobalVariablesScript( array &$vars ) {
 		global $wgSVGEditEditor;
 		$vars['wgSVGEditEditor'] = $wgSVGEditEditor;
 		return true;
@@ -62,9 +64,9 @@ class SVGEditHooks {
 	 *
 	 * @param Title $title
 	 * @param User $user
-	 * @return boolean
+	 * @return bool
 	 */
-	private static function trigger( $title, User $user ) {
+	private static function trigger( Title $title, User $user ) {
 		if ( $title && $title->getNamespace() == NS_FILE ) {
 			if ( class_exists( 'MediaWiki\Permissions\PermissionManager' ) ) {
 				// MW 1.33+
