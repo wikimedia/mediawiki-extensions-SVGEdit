@@ -54,7 +54,7 @@ $( function ( $, mw ) {
 		group: 'insert',
 		tools: {
 			newsvg: {
-				labelMsg: 'svgedit-toolbar-insert',
+				label: mw.msg( 'svgedit-toolbar-insert' ),
 				type: 'button',
 				icon: mw.config.get( 'wgExtensionAssetsPath' ) + '/SVGEdit/modules/images/svgedit-toolbar-icon.png',
 				action: {
