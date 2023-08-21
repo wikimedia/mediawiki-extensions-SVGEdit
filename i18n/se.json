@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"Yupik"
 		]
 	},
-	"svgedit-editor-close": "Šluhtte"
+	"svgedit-editor-close": "Gaskkalduhte"
 }
