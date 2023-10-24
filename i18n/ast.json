@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"svgedit-editbutton-edit": "Editar dibuxu",
 	"svgedit-summary-label": "Resume d'edición",
 	"svgedit-summary-default": "/*Camudáu con svg-edit */",
 	"svgedit-editor-save-close": "Guardar y zarrar",
-	"svgedit-editor-close": "Encaboxar",
+	"svgedit-editor-close": "Zarrar",
 	"svgedit-desc": "Edición nel navegador de dibuxos SVG con [http://code.google.com/p/svg-edit/ SVG-Edit]",
 	"svgedit-edit-tab": "Editar dibuxu",
 	"svgedit-edit-tab-tooltip": "Pues editar esti dibuxu SVG nel navegador",
