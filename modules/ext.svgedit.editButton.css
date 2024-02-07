@@ -1,6 +1,7 @@
 #mw-svgedit {
 	border: solid 1px #c0c0c0ff;
-	background: #ffff
+	background:
+		#ffff
 		url( images/toolbar-base.png )
 		repeat-x;
 	margin-bottom: 16px;
@@ -22,7 +23,8 @@
 	left: 0;
 	width: 0;
 	height: 0;
-	background: rgba( 0, 0, 0, 0.5 )
+	background:
+		rgba( 0, 0, 0, 0.5 )
 		url( images/ajax-loader.gif )
 		50%
 		no-repeat;
