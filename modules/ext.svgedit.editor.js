@@ -1,6 +1,8 @@
 /**
  * SVGEdit extension: edit widget fun
  *
+ * @param $
+ * @param mw
  * @copyright 2010-2011 Brion Vibber <brion@pobox.com>
  */
 

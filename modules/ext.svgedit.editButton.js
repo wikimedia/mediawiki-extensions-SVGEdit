@@ -1,6 +1,8 @@
 /**
  * SVGEdit extension: add 'Edit drawing' button
  *
+ * @param $
+ * @param mw
  * @copyright 2010 Brion Vibber <brion@pobox.com>
  */
 

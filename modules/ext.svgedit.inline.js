@@ -1,6 +1,8 @@
 /**
  * SVGEdit extension: add 'Edit drawing' popup button for inline image usages (experimental)
  *
+ * @param $
+ * @param mw
  * @copyright 2011 Brion Vibber <brion@pobox.com>
  */
 
