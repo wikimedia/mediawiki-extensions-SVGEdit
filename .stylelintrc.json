@@ -2,7 +2,7 @@
 	"extends": "stylelint-config-wikimedia",
 	"rules": {
 		"selector-max-id": null,
-		"stylistic/declaration-colon-space-after": null,
-		"stylistic/indentation": null
+		"@stylistic/declaration-colon-space-after": null,
+		"@stylistic/indentation": null
 	}
 }
