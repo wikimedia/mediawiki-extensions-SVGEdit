@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"svgedit-editbutton-edit": "انځورکښنه سمول",
+	"svgedit-summary-label": "سمون لنډيز",
+	"svgedit-summary-default": "/* په اېس‌وي‌جي سمون کې بدل‌شوی */",
+	"svgedit-editor-save-close": "خوندي‌کول او تړل",
 	"svgedit-editor-close": "ناگارل",
-	"svgedit-toolbar-insert": "SVG رسم"
+	"svgedit-desc": "د [http://code.google.com/p/svg-edit/ SVG-Edit] سره په ښوونگر کې د اېس‌وي‌جي انځورکښنې سمول",
+	"svgedit-edit-tab": "انځورکښنه سمول",
+	"svgedit-edit-tab-tooltip": "تاسو کولی شئ دا اېس‌وي‌جي انځورکښنه په خپل ښوونگر کې سمه کړئ",
+	"svgedit-toolbar-insert": "اېس‌وي‌جي انځورکښنه"
 }
