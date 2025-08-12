@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"JeffreyKim",
+			"Ktchankt"
+		]
+	},
+	"svgedit-editbutton-edit": "編輯幅畫",
+	"svgedit-summary-label": "編輯摘要",
+	"svgedit-summary-default": "/*喺svg編輯入面修改過*/",
+	"svgedit-editor-save-close": "儲存同閂",
+	"svgedit-editor-close": "取消",
+	"svgedit-desc": "用[http://code.google.com/p/svg-edit/ SVG-Edit]喺瀏覽器內編輯SVG繪圖",
+	"svgedit-edit-tab": "編輯幅畫",
+	"svgedit-edit-tab-tooltip": "你可以喺你嘅瀏覽器度編輯呢張SVG幅畫",
+	"svgedit-toolbar-insert": "SVG幅畫"
+}
