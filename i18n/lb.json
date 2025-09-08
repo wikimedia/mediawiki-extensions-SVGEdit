@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"GilPe",
 			"Robby"
 		]
 	},
 	"svgedit-editbutton-edit": "Zeechnung änneren",
-	"svgedit-summary-label": "Resumé vun der Ännerung",
+	"svgedit-summary-label": "Resümmee vun der Ännerung",
 	"svgedit-summary-default": "/* Mat svg-edit geännert */",
 	"svgedit-editor-save-close": "Späicheren an zoumaachen",
 	"svgedit-editor-close": "Annulléieren",
