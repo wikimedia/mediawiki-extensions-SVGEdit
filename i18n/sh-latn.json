@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"svgedit-editbutton-edit": "Uredi",
-	"svgedit-summary-label": "Opis izmjene",
+	"svgedit-summary-label": "Sažetak izmjene",
 	"svgedit-summary-default": "/* Izmijenjeno u svg-edit */",
 	"svgedit-editor-save-close": "Sačuvaj i zatvori",
 	"svgedit-editor-close": "Otkaži",
