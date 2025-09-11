@@ -5,12 +5,12 @@
 
 $( function ( $, mw ) {
 
-	var safeFilename = function ( str ) {
+	const safeFilename = function ( str ) {
 		// hack hack
 			return str.replace( /[^A-Za-z0-9\- ]/, '' ).replace( /[\s_]+/, ' ' );
 		},
 		handyDate = function () {
-			var now = new Date(),
+			const now = new Date(),
 				pad2 = function ( n ) {
 					if ( n < 10 ) {
 						return '0' + n;
@@ -31,7 +31,7 @@ $( function ( $, mw ) {
 				pad2( now.getUTCSeconds() );
 		},
 		callback = function ( context ) {
-			var filename = safeFilename( mw.config.get( 'wgTitle' ) ) + ' drawing ' + handyDate() + '.svg',
+			const filename = safeFilename( mw.config.get( 'wgTitle' ) ) + ' drawing ' + handyDate() + '.svg',
 				form = context.$ui.closest( 'form' );
 			mediaWiki.svgedit.open( {
 				filename: filename,

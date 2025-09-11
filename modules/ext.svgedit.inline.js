@@ -8,7 +8,7 @@
 
 ( function ( $, mw ) {
 
-	$( function () {
+	$( () => {
 	// We probably should check http://www.w3.org/TR/SVG11/feature#SVG-dynamic
 	// but Firefox is missing a couple random subfeatures.
 	//
@@ -17,9 +17,9 @@
 		if ( !document.implementation.hasFeature( 'http://www.w3.org/TR/SVG11/feature#Shape', '1.1' ) ) {
 			return;
 		}
-		var trigger = function ( link ) {
+		const trigger = function ( link ) {
 		// hackkkkkkk
-			var url = $( link ).attr( 'href' ),
+			const url = $( link ).attr( 'href' ),
 				match = url.match( /\/[^?\/:]+:([^?\/]+)(?:\?|$)/ ),
 				title = match[ 1 ];
 			mw.svgedit.open( {
@@ -36,9 +36,9 @@
 		};
 
 		function setupImage( link ) {
-			var button = $( '<button>' )
+			const button = $( '<button>' )
 				.text( mw.msg( 'svgedit-editbutton-edit' ) )
-				.on( 'click', function () {
+				.on( 'click', () => {
 					trigger( link );
 				} );
 			$( link ).after( button );

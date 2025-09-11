@@ -7,7 +7,7 @@
  */
 
 ( function ( $, mw ) {
-	var mwSVG;
+	let mwSVG;
 
 	mw.svgedit = {
 		isOpen: false,
@@ -33,7 +33,7 @@
 
 			if ( 'filename' in options ) {
 			// Get some basic info on the image before we go barrelling in...
-				mwSVG.fetchInfo( options.filename, function ( imageinfo ) {
+				mwSVG.fetchInfo( options.filename, ( imageinfo ) => {
 					mw.svgedit.openEditor( options, imageinfo );
 				} );
 			} else {
@@ -47,7 +47,7 @@
 		 * @access private
 		 */
 		openEditor: function ( options, imageinfo ) {
-			var wgSVGEditEditor,
+			let wgSVGEditEditor,
 				url = wgSVGEditEditor ||
 					( mw.config.get( 'wgScriptPath' ) + '/extensions/SVGEdit/svg-edit/svg-editor.html' ),
 				filename = options.filename || null,
@@ -63,7 +63,7 @@
 				url += '?dimensions=' + origWidth + ',' + origHeight;
 			}
 
-			var preferredHeight = origHeight + 180, // leave space for toolbars and UI inside the iframe
+			const preferredHeight = origHeight + 180, // leave space for toolbars and UI inside the iframe
 				windowHeight = $( window ).height() - 40, // leave space for our toolbar outside the iframe
 				minHeight = Math.min( windowHeight, preferredHeight ),
 				initHeight = Math.max( minHeight, minHeight ),
@@ -83,7 +83,7 @@
 					'</div>' +
 					'</div>' );
 
-			var frame = $( '#mw-svgedit-frame' );
+			const frame = $( '#mw-svgedit-frame' );
 			$( '#mw-svgedit-frame-holder' ).resizable( {
 				handles: 's',
 				helper: 'mw-svgedit-resize',
@@ -91,7 +91,7 @@
 			} );
 
 			$( 'body' ).append( '<div id="mw-svgedit-spinner"></div>' );
-			var spinner = $( '#mw-svgedit-spinner' ),
+			const spinner = $( '#mw-svgedit-spinner' ),
 				/**
 				 * Close the editor when we're ready.
 				 * Alert the caller's callback if provided.
@@ -115,7 +115,7 @@
 				spinnerOn = function () {
 					$( '#mw-svgedit-summary' ).prop( 'disabled', true );
 					$( '#mw-svgedit-save' ).prop( 'disabled', true );
-					var offset = frame.offset();
+					const offset = frame.offset();
 					spinner
 						.css( 'left', offset.left )
 						.css( 'top', offset.top )
@@ -137,11 +137,11 @@
 
 			$( '#mw-svgedit-save' )
 				.text( mediaWiki.msg( 'svgedit-editor-save-close' ) )
-				.on( 'click', function () {
+				.on( 'click', () => {
 					spinnerOn();
-					svgedit.getSvgString()( function ( svg ) {
-						var comment = $( '#mw-svgedit-summary' ).val();
-						mwSVG.saveSVG( filename, svg, comment, function ( data ) {
+					svgedit.getSvgString()( ( svg ) => {
+						const comment = $( '#mw-svgedit-summary' ).val();
+						mwSVG.saveSVG( filename, svg, comment, ( data ) => {
 							if ( data.upload && data.upload.result === 'Success' ) {
 								saved = true;
 								closeEditor();
@@ -158,7 +158,7 @@
 
 			$( '#mw-svgedit-close' )
 				.text( mediaWiki.msg( 'svgedit-editor-close' ) )
-				.on( 'click', function () {
+				.on( 'click', () => {
 					closeEditor();
 				} );
 
@@ -170,27 +170,27 @@
 
 					// Load up the original file!
 					if ( filename && imageinfo && imageinfo.url ) {
-						var open = function ( xmlSource ) {
-								svgedit.setSvgString( xmlSource )( function () {
+						const open = function ( xmlSource ) {
+								svgedit.setSvgString( xmlSource )( () => {
 									spinnerOff();
 								} );
 							},
 							loadApiProxy = function () {
-								mwSVG.fetchSVG( filename, function ( xmlSource ) {
+								mwSVG.fetchSVG( filename, ( xmlSource ) => {
 									open( xmlSource );
-								}, function () {
+								}, () => {
 									alert( 'failllll' );
 								} );
 							};
 
-						mwSVG.fetchFile( imageinfo.url, function ( xmlSource, textStatus, xhr ) {
+						mwSVG.fetchFile( imageinfo.url, ( xmlSource, textStatus, xhr ) => {
 							if ( xmlSource === '' &&
 							( xhr.responseXML === null || xhr.responseXML === undefined )
 							) {
 								loadApiProxy();
 							}
 							open( xmlSource );
-						}, function () {
+						}, () => {
 							loadApiProxy();
 						} );
 					} else {
@@ -200,7 +200,7 @@
 				.attr( 'src', url );
 
 			// Check if the editor is fully in view; if not, scroll to the top.
-			var win = $( window ),
+			const win = $( window ),
 				scrollTop = win.scrollTop(),
 				scrollBottom = scrollTop + windowHeight,
 				top = $( '#mw-svgedit' ).offset().top,

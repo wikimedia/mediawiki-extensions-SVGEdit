@@ -24,16 +24,16 @@ var mwSVG = window.mwSVG = {
 	 * @param {function(imageinfo)} callback
 	 */
 	fetchInfo: function ( target, callback ) {
-		var params = {
+		const params = {
 			format: 'json',
 			action: 'query',
 			prop: 'imageinfo',
 			titles: 'File:' + target,
 			iiprop: 'size|url|mime'
 		};
-		jQuery.get( mwSVG.api(), params, function ( data ) {
-			var imageinfo = {};
-			jQuery.each( data.query.pages, function ( key, pageInfo ) {
+		jQuery.get( mwSVG.api(), params, ( data ) => {
+			let imageinfo = {};
+			jQuery.each( data.query.pages, ( key, pageInfo ) => {
 				if ( pageInfo.imageinfo && pageInfo.imageinfo.length ) {
 					imageinfo = pageInfo.imageinfo[ 0 ];
 				}
@@ -70,7 +70,7 @@ var mwSVG = window.mwSVG = {
 	 * @param {function(xmlSource, textStatus, xhr)} callback
 	 */
 	fetchSVG: function ( target, callback ) {
-		var params = {
+		const params = {
 			action: 'svgproxy',
 			file: 'File:' + target,
 			format: 'xml'
@@ -86,16 +86,16 @@ var mwSVG = window.mwSVG = {
 	 * @param {function(token)} callback
 	 */
 	fetchToken: function ( target, callback ) {
-		var params = {
+		const params = {
 			format: 'json',
 			action: 'query',
 			prop: 'info',
 			intoken: 'edit',
 			titles: 'File:' + target
 		};
-		jQuery.get( mwSVG.api(), params, function ( data ) {
-			var token = null;
-			jQuery.each( data.query.pages, function ( key, pageInfo ) {
+		jQuery.get( mwSVG.api(), params, ( data ) => {
+			let token = null;
+			jQuery.each( data.query.pages, ( key, pageInfo ) => {
 				token = pageInfo.edittoken;
 			} );
 			callback( token );
@@ -115,8 +115,8 @@ var mwSVG = window.mwSVG = {
 	 * @param callback
 	 */
 	saveSVG: function ( target, data, comment, callback ) {
-		mwSVG.fetchToken( target, function ( token ) {
-			var multipart = new FormMultipart( {
+		mwSVG.fetchToken( target, ( token ) => {
+			const multipart = new FormMultipart( {
 				action: 'upload',
 				format: 'json',
 
@@ -133,7 +133,7 @@ var mwSVG = window.mwSVG = {
 				data: data
 			} );
 
-			var onError = function () {
+			const onError = function () {
 					alert( 'Error saving file.' );
 				},
 				ajaxSettings = {

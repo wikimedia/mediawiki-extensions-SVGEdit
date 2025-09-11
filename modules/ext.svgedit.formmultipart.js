@@ -12,8 +12,8 @@
  */
 function FormMultipart( fields ) {
 	function genRandom( chars ) {
-		var base = '';
-		for ( var i = 0; i < chars; i++ ) {
+		let base = '';
+		for ( let i = 0; i < chars; i++ ) {
 			base = base + String.fromCharCode( Math.floor( Math.random() * 26 ) + 65 );
 		}
 		return base;
@@ -22,7 +22,7 @@ function FormMultipart( fields ) {
 	this.out = [];
 
 	if ( fields ) {
-		for ( var name in fields ) {
+		for ( const name in fields ) {
 			if ( fields.hasOwnProperty( name ) ) {
 				this.addField( name, fields[ name ] );
 			}
@@ -44,7 +44,7 @@ FormMultipart.prototype.addField = function ( name, val ) {
 FormMultipart.prototype.addPart = function ( params ) {
 	this.append( '--' + this.boundary );
 
-	var disposition = 'Content-Disposition: ';
+	let disposition = 'Content-Disposition: ';
 	if ( params.disposition ) {
 		disposition += params.disposition;
 	} else {
@@ -74,7 +74,7 @@ FormMultipart.prototype.addPart = function ( params ) {
 };
 
 FormMultipart.prototype.toString = function () {
-	var crlf = '\r\n';
+	const crlf = '\r\n';
 	return this.out.join( crlf ) + ( crlf + '--' + this.boundary + '--' + crlf );
 };
 

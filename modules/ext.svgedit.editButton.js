@@ -8,7 +8,7 @@
 
 ( function ( $, mw ) {
 
-	$( function () {
+	$( () => {
 	// We probably should check http://www.w3.org/TR/SVG11/feature#SVG-dynamic
 	// but Firefox is missing a couple random subfeatures.
 	//
@@ -22,7 +22,7 @@
 		mw.config.get( 'wgAction' ) === 'view' &&
 		mw.config.get( 'wgTitle' ).match( /\.svg$/i ) ) {
 
-			var trigger = function () {
+			const trigger = function () {
 					mw.svgedit.open( {
 						filename: mw.config.get( 'wgTitle' ),
 						replace: '#file',
@@ -43,20 +43,20 @@
 					'',
 					document.getElementById( 'ca-edit' ) );
 
-			$( tab ).find( 'a' ).on( 'click', function ( event ) {
+			$( tab ).find( 'a' ).on( 'click', ( event ) => {
 				trigger();
 				event.preventDefault();
 				return false;
 			} );
 
-			var button = $( '<button>' )
+			const button = $( '<button>' )
 				.text( mw.msg( 'svgedit-editbutton-edit' ) )
-				.on( 'click', function () {
+				.on( 'click', () => {
 					trigger();
 				} );
 			$( '.fullMedia' ).append( button );
 
-			if ( window.location.hash.indexOf( '!action=svgedit' ) !== -1 ) {
+			if ( window.location.hash.includes( '!action=svgedit' ) ) {
 				window.location.hash = '';
 				trigger();
 			}
