@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"IvanLanin",
-			"Kenrick95"
+			"Kenrick95",
+			"Penyuwangi"
 		]
 	},
 	"svgedit-editbutton-edit": "Sunting gambar",
@@ -10,7 +11,7 @@
 	"svgedit-summary-default": "/* Diubah dalam svg-edit */",
 	"svgedit-editor-save-close": "Simpan dan tutup",
 	"svgedit-editor-close": "Batalkan",
-	"svgedit-desc": "Penyuntingan gambar SVG via peramban dengan [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-desc": "Penyuntingan gambar SVG lewat peramban dengan [http://code.google.com/p/svg-edit/ SVG-Edit]",
 	"svgedit-edit-tab": "Sunting gambar",
 	"svgedit-edit-tab-tooltip": "Anda dapat menyunting gambar SVG ini di penjelajah web Anda",
 	"svgedit-toolbar-insert": "Gambar SVG"
