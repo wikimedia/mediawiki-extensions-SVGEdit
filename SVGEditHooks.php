@@ -21,9 +21,10 @@ class SVGEditHooks {
 	 * @return bool
 	 */
 	public static function beforePageDisplay( OutputPage $out, Skin $skin ) {
-		global $wgRequest, $wgSVGEditInline;
+		global $wgSVGEditInline;
 		$title = $out->getTitle();
 		$user = $out->getUser();
+		$request = $out->getRequest();
 		$modules = [];
 		if ( self::trigger( $title, $user ) ) {
 			$modules[] = 'ext.svgedit.editButton';
@@ -35,7 +36,7 @@ class SVGEditHooks {
 				$modules[] = 'ext.svgedit.inline';
 			}
 		}
-		if ( $wgRequest->getVal( 'action' ) == 'edit' ) {
+		if ( $request->getVal( 'action' ) == 'edit' ) {
 			if ( $user->isAllowed( 'upload' ) ) {
 				$modules[] = 'ext.svgedit.toolbar';
 			}
