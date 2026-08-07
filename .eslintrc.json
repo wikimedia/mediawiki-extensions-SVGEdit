@@ -29,6 +29,7 @@
 		"block-scoped-var": "warn",
 		"es-x/no-resizable-and-growable-arraybuffers": "warn",
 		"prefer-const": "warn",
-		"no-var": "warn"
+		"no-var": "warn",
+		"no-jquery/no-jquery-ui": "warn"
 	}
 }
