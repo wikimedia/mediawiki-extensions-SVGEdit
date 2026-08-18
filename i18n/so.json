@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"svgedit-editbutton-edit": "Wax ka beddel sawirka",
+	"svgedit-summary-label": "Soo koobida wax ka beddel",
+	"svgedit-summary-default": "/* Waxaa lagu wax ka beddelay svg-edit */",
+	"svgedit-editor-save-close": "Kaydi oo xidh",
+	"svgedit-editor-close": "Jooji",
+	"svgedit-desc": "Wax ka beddelka sawirrada SVG gudaha biraawsarka iyadoo la adeegsanayo [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Wax ka beddel sawirka",
+	"svgedit-edit-tab-tooltip": "Waxaad sawirkan SVG ku tafatiri kartaa biraawsarkaaga",
+	"svgedit-toolbar-insert": "Sawirka SVG"
+}
