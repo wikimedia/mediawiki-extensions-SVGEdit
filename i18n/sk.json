@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"svgedit-editbutton-edit": "Upraviť kresbu",
+	"svgedit-summary-label": "Zhrnutie úpravy",
+	"svgedit-summary-default": "/* Upravené v svg-edit */",
+	"svgedit-editor-save-close": "Uložiť a zavrieť",
+	"svgedit-editor-close": "Zrušiť",
+	"svgedit-desc": "Úprava kresieb SVG priamo v prehliadači pomocou [http://code.google.com/p/svg-edit/ SVG-Edit]",
+	"svgedit-edit-tab": "Upraviť kresbu",
+	"svgedit-edit-tab-tooltip": "Túto kresbu SVG môžete upraviť vo svojom prehliadači",
+	"svgedit-toolbar-insert": "Kresba SVG"
+}
